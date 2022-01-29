@@ -28,16 +28,31 @@ class _InicioState extends State<Inicio> {
         appBar: AppBar(
           title: const Text("Mi aplicación"),
         ),
-        body: Column(
-          children: const <Widget>[],
+        body: ListView(
+          children: <Widget>[
+            Container(
+              padding: const EdgeInsets.all(25.0),
+              child: Image.network(
+                  "https://alifouad91.com/storage/post/9sIBxL0hhyw5VCBwlBbEYtz9tlzgOqdHRaCRVAAK.jpeg"),
+            ),
+            Container(
+              padding: const EdgeInsets.all(25.0),
+              child: Image.network(
+                  "https://alifouad91.com/storage/post/9sIBxL0hhyw5VCBwlBbEYtz9tlzgOqdHRaCRVAAK.jpeg"),
+            ),
+            Container(
+              padding: const EdgeInsets.all(25.0),
+              child: Image.network(
+                  "https://alifouad91.com/storage/post/9sIBxL0hhyw5VCBwlBbEYtz9tlzgOqdHRaCRVAAK.jpeg"),
+            ),
+            Container(
+              padding: const EdgeInsets.all(25.0),
+              child: Image.network(
+                  "https://alifouad91.com/storage/post/9sIBxL0hhyw5VCBwlBbEYtz9tlzgOqdHRaCRVAAK.jpeg"),
+            )
+          ],
         )
 
-        // Container(
-
-        //   padding: const EdgeInsets.all(25.0),
-        //   child: Image.network(
-        //       "https://alifouad91.com/storage/post/9sIBxL0hhyw5VCBwlBbEYtz9tlzgOqdHRaCRVAAK.jpeg"),
-        // )
         // const Text("Saludos a todos")
         // const Center(
         //   child: Text("Buenas tardes a todos"),
